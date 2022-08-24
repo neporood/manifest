@@ -7,6 +7,7 @@
            fetch="https://github.com/CrookedAndroid/" />
 
   <!-- Build -->
+<!--
   <project path="build/make" name="build_make" remote="ca" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,12 +21,13 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+-->
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="ca" />
 
   <!-- Manifest -->
-  <project path="manifest" name="manifest" remote="ca" />
+<!--  <project path="manifest" name="manifest" remote="ca" /> -->
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ca" />

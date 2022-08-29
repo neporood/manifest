@@ -37,8 +37,6 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_prebuilts" />
   <remove-project name="device/google/redbull" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redbull-kernel" />
@@ -73,6 +71,14 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
 
+  <!--Hardware -->
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+
+  <!-- System -->
+  <remove-project name="platform/system/sepolicy" />
 </manifest>
